@@ -1,7 +1,15 @@
 img {
   height: 100%;
   margin-left: -14%;
+
 }
+
+
+
+.gray {
+  opacity: .45;
+}
+
 
 .buc {
   background-image: url("../img/bucket.jpg");
