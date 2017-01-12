@@ -1,9 +1,23 @@
+@media max-height (350px) {
+  .overlay {
+    padding-top: 40%;
+  }
+}
+
+
+.body {
+  max-height: 700px;
+}
+
 img {
   height: 100%;
   margin-left: -14%;
 
 }
 
+.panel {
+  height: 18em;
+}
 
 
 .gray {
@@ -35,4 +49,27 @@ img {
 
 .panel {
   margin: 0px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0%;
+  background-color: rgba(0,0,0,.7);
+  height: 100%;
+  width: 100%;
+  padding-top: 10%;
+  text-shadow: -2px 2px rgba(0,0,0,.6);
+}
+
+.height-form {
+  margin-right: 15em;
+  width: 50em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.box {
+  box-shadow: -3px 4px rgba(0,0,0,.4);
 }

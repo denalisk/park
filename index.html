@@ -8,7 +8,7 @@
   <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
   <script src="js/scripts.js" type="text/javascript"></script>
 </head>
-<body>
+<body class="body">
   <div class="jumbotron">
     <div class="container">
       <h1>asdfasdf</h1>
@@ -69,19 +69,22 @@
     </div>
   </div>
   <div class="overlay">
-    <div class="container">
-      <h1>Select Your Height</h1>
-      <form class="height" action="index.html" method="post">
-        <select class="form-control" id="height">
-          <option>Select your height</option>
-          <option value="xsmall">Under 3'</option>
-          <option value="short">Under 4'</option>
-          <option value="medium">Under 5'</option>
-          <option value="tall">5' and over</option>
-          <label for="height"></label>
-        </select>
-        <button class="btn btn-success" type="submit" name="button">What can I ride?</button>
-      </form>
+    <div class="centered">
+      <div class="container height-form">
+        <h1 class="text-success">Select Your Height</h1>
+        <form class="height" action="index.html" method="post">
+          <select class="form-control box" id="height">
+            <option>Select your height</option>
+            <option value="xsmall">Under 3'</option>
+            <option value="short">Under 4'</option>
+            <option value="medium">Under 5'</option>
+            <option value="tall">5' and over</option>
+            <label for="height"></label>
+          </select>
+          <br>
+          <button class="btn btn-success box" type="submit" name="button">What can I ride?</button>
+        </form>
+      </div>      
     </div>
   </div>
 </body>
