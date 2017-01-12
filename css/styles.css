@@ -1,0 +1,30 @@
+img {
+  height: 100%;
+  margin-left: -14%;
+}
+
+.buc {
+  background-image: url("../img/bucket.jpg");
+}
+
+.move-right {
+  margin-left: -6.5%;;
+}
+
+.move-left {
+  margin-left: -35%;
+}
+
+.col-sm-4 {
+  overflow: hidden;
+  max-height: 18em;
+  max-width: 18em;
+  /*border: solid 5px black;*/
+  margin: 0px;
+  padding: 0px;
+  border-right: 1px solid white;
+}
+
+.panel {
+  margin: 0px;
+}

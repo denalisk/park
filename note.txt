@@ -1,0 +1,9 @@
+coaster = tall
+bucket = medium
+pendulum = medium
+dumbo = short
+
+zipper = tall
+trebuchet = xsmall
+whirlybird = short
+dino = short
